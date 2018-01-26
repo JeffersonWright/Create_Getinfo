@@ -1,4 +1,4 @@
-CreateTextjoin.gs is a Google Script that creates a function for scraping information from the web.
+CreateGetinfo.gs is a Google Script that creates a function for scraping information from the web.
 Once created, this sheet will take the name of a school in cell A2 and populate fields that can be copied and pasted into other documents.
 I created this from scratch while working at TestBest doing data collection and it greatly increased my productivity.
 This function needs to be run once and then the program can be used.
