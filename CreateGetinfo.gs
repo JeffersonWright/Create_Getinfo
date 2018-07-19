@@ -1,7 +1,7 @@
 function CreateGetinfo() {
-//  SpreadsheetApp.getActiveSpreadsheet().renameActiveSheet('Getinfo');
+  SpreadsheetApp.getActiveSpreadsheet().renameActiveSheet('Getinfo');
   var GIF = SpreadsheetApp.getActive().getSheetByName('Getinfo'); //sets the active sheet to the variable "GIF"
-//  SpreadsheetApp.getActiveSpreadsheet().insertSheet('Formula'); //inserts the Formula sheet
+  SpreadsheetApp.getActiveSpreadsheet().insertSheet('Formula'); //inserts the Formula sheet
   var FUA = SpreadsheetApp.getActive().getSheetByName('Formula'); //sets the active sheet to the variable "FUA"
   
   GIF.setColumnWidth(1, 200); //sets column widths
